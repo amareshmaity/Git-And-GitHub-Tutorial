@@ -21,7 +21,12 @@ Git itself is a distributed version control system.
 # Understanding Git
 Git was created by Linus Torvalds in 2005 to manage the development of the Linux kernel. 
 
-It’s A free, open-source, distributed version control system (DVCS), which means every contributor has a full copy of the entire codebase and history. So you can commit, branch, and merge locally, then push or pull changes to share with others.
+It’s A free, open-source, distributed version control system (DVCS), which means every contributor has a full copy of the entire codebase and history. 
+
+It helps developers to -
+* Track the history of the code (add file, modify file, delete file, etc)
+* To collaborate
+    * works with other developers in a company (maintain codebase properly so that codes by different developers should not overwrite)
 
 This model contrasts with centralized systems and provides greater resilience, speed, and flexibility for collaboration.
 
@@ -41,19 +46,23 @@ Understanding these terms is key to mastering Git’s workflow and leveraging it
 
 1. **Installation:**
 
-    For Windows user: Download Git from [git-scm.com](https://git-scm.com) and follow the installer instructions.
+    * For Windows user: Download Git from [git-scm.com](https://git-scm.com) and follow the installer instructions.
+    * Open git bash and see git version
+    ```bash
+    git --version
+    ```
 
 2. **Global Configuration:**
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-git config --global core.editor "vim"
+git config --global user.name "Your Name"           # user name setup
+git config --global user.email "you@example.com"    # email setup
+git config --global core.editor "vim"               
 git config --global color.ui auto
 ```
 
 3. **View Configuration:**
 ```bash
-    git config --list
+    git config --list        # See changes of configuration in git
 ```
 
 <br/>
@@ -240,11 +249,25 @@ git remote add origin <remote-repo-url>
 git remote -v   # Viewing remote
 ```
 
-### 3. Pushing Changes
+### 3. Push to Remote
 ```bash
-git push -u origin main  # First push sets upstream
-git push                 # Subsequent pushes
+git push origin <branch> 
 ```
-![alt text](Images/git-add-commit-push.png)
+* **Purpose:** Uploads your local commits to a remote repository (like GitHub).
 
-Now you have successfully push your code into github. Go to your github repository and refresh the page. You will see the updated repository with latest code.
+* **Usage:** Updates the remote branch to reflect your latest changes.
+
+**Note:** If the remote has new commits that you don't have locally, Git will reject the push until you integrate those updates.
+
+### 4. Pull from Remote
+```bash
+git pull origin <branch>  
+```
+* **Purpose:** Downloads commits from the remote repository and merges them into your current local branch.
+
+* **Usage:** Ensures your local repository is up-to-date with changes made by others.
+
+**Note:** It performs a fetch followed by a merge (or rebase if specified), and may require manual conflict resolution if there are overlapping changes.
+
+![alt text](Images/git-add-commit-push-pull.png)
+
