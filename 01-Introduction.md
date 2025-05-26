@@ -232,6 +232,8 @@ You should name the remote repository same as your local git repository.
 * create an account
 * create a remote repository (give same name as your local git repository)
 
+**Note:** Make sure remote repository does not contain any file (leave the repository empty) otherwise below steps will not work.
+
 ### 2. Add the remote repository to your git
 ```bash
 git remote add origin <remote-repo-url>
