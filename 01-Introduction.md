@@ -1,5 +1,5 @@
 
-![alt text](Images\git-github-tutorial.png)
+![alt text](Images/git-github-tutorial.png)
 
 # Introduction
 Both Git and GitHub have revolutionized how developers work together. 
@@ -93,7 +93,7 @@ Understanding this architecture is essential because it explains how Git manages
 
 ---
 
-![alt text](Images\git-add-git-commit.png)
+![alt text](Images/git-add-git-commit.png)
 
 ### 2. Run git status
 ```bash
@@ -245,6 +245,6 @@ git remote -v   # Viewing remote
 git push -u origin main  # First push sets upstream
 git push                 # Subsequent pushes
 ```
-![alt text](Images\git-add-commit-push.png)
+![alt text](Images/git-add-commit-push.png)
 
 Now you have successfully push your code into github. Go to your github repository and refresh the page. You will see the updated repository with latest code.
