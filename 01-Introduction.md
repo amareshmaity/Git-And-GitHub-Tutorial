@@ -125,7 +125,7 @@ The git add command is used to move changes from your **working directory** to t
 
 * **Selective Staging:** It adds individual files. 
 ```bash
-git add <filename>
+git add <file1> <file2> …
 ```
 * **Bulk Staging:** It adds all modified files.
 ```bash
@@ -243,11 +243,14 @@ You should name the remote repository same as your local git repository.
 
 **Note:** Make sure remote repository does not contain any file (leave the repository empty) otherwise below steps will not work.
 
+
+
 ### 2. Add the remote repository to your git
 ```bash
 git remote add origin <remote-repo-url>
 git remote -v   # Viewing remote
 ```
+![alt text](Images/git-add-commit-push-pull.png)
 
 ### 3. Push to Remote
 ```bash
@@ -269,5 +272,5 @@ git pull origin <branch>
 
 **Note:** It performs a fetch followed by a merge (or rebase if specified), and may require manual conflict resolution if there are overlapping changes.
 
-![alt text](Images/git-add-commit-push-pull.png)
+
 
