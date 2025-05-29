@@ -1,4 +1,20 @@
-# Branch
+# Working with Branches in Git & GitHub
+Branching lets you work on different parts of a project at the same time without disturbing the main code.
+
+<br/>
+
+## Table of Contents
+
+1. [What Is a Branch?](#what-is-a-branch)
+2. [Features](#features)
+3. [Why Use Branches?](#why-use-branches)
+4. [How to Use Branches?](#how-to-use-branches)
+
+<br/>
+
+
+
+## What Is a Branch?
 In Git and GitHub, a branch is a separate version of a project's codebase, allowing developers to work on different features, bug fixes, or experiments without impacting the main codebase. 
 
 It's essentially a pointer to a specific snapshot of the project's history, enabling isolated development and later merging changes into the main branch. 
@@ -31,7 +47,7 @@ Branches can be used for testing new features or bug fixes before they are merge
 
 <br/>
 
-## How to use branches:
+## How to use branches?
 ### 1. **Create a branch:** 
 Use the git branch command to create a new branch.
 ```bash
