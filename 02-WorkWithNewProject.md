@@ -87,6 +87,7 @@ git branch -M main       # Change the name of branch
 git push -u origin main  # First push sets upstream
 git push                 # Subsequent pushes
 ```
+**Note:** The -u flag sets the upstream for the branch so future pushes can be done simply with `git push`.
 
 8. Pulling changes
 ```bash
