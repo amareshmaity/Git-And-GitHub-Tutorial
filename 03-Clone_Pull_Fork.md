@@ -1,3 +1,25 @@
+# Getting Started: Clone, Pull & Fork
+This page explains three essential Git operations:
+
+* **Clone:** Copy a remote repository to your local machine.
+* **Pull:** Update your local repository with latest changes from remote.
+* **Fork:** Create a personal copy of someone else’s repository on GitHub.
+
+Follow the sections below to learn when and how to use each command.
+
+<br/>
+<br/>
+
+# Table of Contents
+
+1. [Clone](#clone)
+2. [Pull](#pull)
+3. [Fork](#fork)
+4. [Summary Comparison](#summary-comparison)
+
+<br/>
+<br/>
+
 # Clone
 Cloning a repository in Git means Creates a copy of the remote repository on your local machine that's fully synchronized with the remote repository.
 
