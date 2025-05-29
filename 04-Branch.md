@@ -29,6 +29,8 @@ Bug fixes can be developed in their own branches, ensuring that the fix doesn't 
 ### Testing:
 Branches can be used for testing new features or bug fixes before they are merged into the main branch. 
 
+<br/>
+
 ## How to use branches:
 ### 1. **Create a branch:** 
 Use the git branch command to create a new branch.
