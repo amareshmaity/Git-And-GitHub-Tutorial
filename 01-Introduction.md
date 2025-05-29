@@ -116,9 +116,10 @@ The command git status is your first checkpoint for understanding the current st
 
 The output of git status includes:
 
+* **Untracked Files:** New files that Git isn’t yet managing.
 * **Modified Files:** Files that have been changed but not yet staged.
 * **Staged Files:** Files that have been added to the staging area via git add and are ready to be committed.
-* **Untracked Files:** New files that Git isn’t yet managing.
+
 
 ### 3. git add
 The git add command is used to move changes from your **working directory** to the **staging area**. This step is crucial because it gives you the control over what your next commit will include, letting you assemble a coherent set of changes rather than an unfiltered snapshot of your working directory.
