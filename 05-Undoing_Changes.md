@@ -12,7 +12,7 @@ This guide explains how to reverse different types of changes in Git, from uncom
 4. [Removing Untracked Files](#removing-untracked-files)
 5. [Resolving Merge Conflicts](#resolving-merge-conflicts)
 
----
+
 
 <br/>
 
