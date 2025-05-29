@@ -1,9 +1,29 @@
-There are two ways to start working with new project in git and github:
-1. Create a repository first on remote and then clone it to your local
-2. First create a repository in local and then push it to the remote
+# Getting Started with Git & GitHub Workflows
 
-## 1. Create a repository on remote and clone it
-This is the easiest way to start working with a new project.
+A quick guide to kick off your projects with Git and GitHub.  
+You’ll learn two simple workflows:
+
+1. **Remote-first:** Create a repository on GitHub, then clone it locally.  
+2. **Local-first:** Initialize a Git repo on your machine, then push it to GitHub.
+
+Follow the step-by-step instructions below to set up, sync, and collaborate on your code seamlessly.
+
+<br/>
+
+
+## Table of Contents
+
+1. [Remote First](#1-remote-first)
+2. [Local First](#2-local-first)
+
+
+<br/>
+
+
+
+
+## 1. Remote First
+This is the easiest way to start working with a new project. Here, we will create a repository on GitHub, then clone it locally.
 
 ### Steps:
 1. Go to github
@@ -43,8 +63,8 @@ git pull origin <branch-name>
 <br/>
 <br/>
 
-## 2. Create a repository in local and then push it to the remote
-This is little bit complex but no problem.
+## 2. Local First 
+This is little bit complex but no problem. Here, we will Create a repository in local and then push it to the remote
 
 ### Steps:
 1. Create git repository in your local machine (e.g., `my-project`)
