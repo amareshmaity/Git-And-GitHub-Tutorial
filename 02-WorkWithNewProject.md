@@ -8,12 +8,12 @@ This is the easiest way to start working with a new project.
 ### Steps:
 1. Go to github
 2. Sign in
-3. Create a new remote repository
+3. Create a new remote repository (e.g., `my-project`).
 4. Copy the link of your remote repository
 5. Open terminal, go to your desired local folder where you want to clone (you don't need to git initialize this folder) and Clone the remote repository
 ```bash
-cd myDesiredLocalFolder
-git clone <remote-repository-url>
+git clone https://github.com/<username>/my-project.git
+cd my-project
 ```
 Now your github repository in your local machine. 
 
@@ -37,6 +37,9 @@ git push origin <branch-name>
 git pull origin <branch-name>
 ```
 
+### Workflow
+![alt text](Images/clone-workflow.png)
+
 <br/>
 <br/>
 
@@ -44,9 +47,9 @@ git pull origin <branch-name>
 This is little bit complex but no problem.
 
 ### Steps:
-1. Create git repository in your local machine
+1. Create git repository in your local machine (e.g., `my-project`)
 ```bash
-cd myDesiredDirectory
+cd my-project
 git init
 ```
 2. Open terminal and run 
@@ -68,7 +71,7 @@ git add .        # Stage all changed files
 git commit -m "Your commit message"
 ```
 
-5. Now go to your github account and create a new repository (give same name as your local git repsitory)
+5. Now go to your github account and create a new repository (give same name as your local git repsitory) e.g., `my-project`
 
 **Note:** Make sure remote repository does not contain any file (leave the repository empty) otherwise below steps will not work.
 
@@ -80,6 +83,7 @@ git remote -v   # Viewing remote
 
 7. Push your local files from local git repository to remote github repository
 ```bash
+git branch -M main       # Change the name of branch
 git push -u origin main  # First push sets upstream
 git push                 # Subsequent pushes
 ```
