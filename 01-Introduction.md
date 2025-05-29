@@ -1,6 +1,24 @@
 
 ![alt text](Images/git-github-tutorial.png)
 
+<br/>
+
+# Table of Contents
+
+1. [Introduction](#introduction)
+2. [Understanding Git](#understanding-git)
+    * [Features](#features)
+    * [Installing & Configuring Git](#installing-and-configuring-git)
+    * [How Git Works](#how-git-works)
+3. [Understanding GitHub](#understanding-github)
+    * [Features](#features-1)
+    * [Benefits of GitHub](#benefits-of-github)
+    * [Working with Remote Directory](#working-with-remote-directory)
+
+<br/>
+<br/>
+<br/>
+
 # Introduction
 Both Git and GitHub have revolutionized how developers work together. 
 
@@ -42,7 +60,7 @@ Understanding these terms is key to mastering Git’s workflow and leveraging it
 
 <br/>
 
-## Installing & Configuring Git
+## Installing And Configuring Git
 
 1. **Installation:**
 
