@@ -29,6 +29,7 @@ When you’ve edited files but haven’t staged or committed them yet.
 
   ```bash
   git restore <file-name>
+  git restore --staged <file>  # to unstage from staged
   ```
 * **Discard All Unstaged Changes:**
 

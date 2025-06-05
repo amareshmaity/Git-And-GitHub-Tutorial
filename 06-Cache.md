@@ -43,6 +43,7 @@ You can remove files from the index cache without deleting them from your workin
 
   ```bash
   git rm --cached <file>
+  git rm -r --cached .   # remove all cached
   ```
 
   Stops tracking the file entirely while keeping it in your folder. Remember to add it to `.gitignore` if you don’t want Git to re-add it.
