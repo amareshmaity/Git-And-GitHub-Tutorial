@@ -37,6 +37,20 @@ cd my-project
 ```
 Now your github repository in your local machine. 
 
+
+#### Another Way
+1. Open git bash
+2. Go to your desired directory 
+    ```bash
+    cd /d/your-desired-directory/
+    ```
+3. Clone the remote repo 
+    ```bash
+    git clone https://github.com/<username>/my-project.git
+    cd my-project
+    ```
+<br/>
+
 ![alt text](Images/clone-git-repository.png)
 
 **Clone** a remote repository means you are creating an exact local copy of a remote repository, including all files, branches, commit history, and metadata.

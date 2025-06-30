@@ -9,6 +9,7 @@ Branching lets you work on different parts of a project at the same time without
 2. [Features](#features)
 3. [Why Use Branches?](#why-use-branches)
 4. [How to Use Branches?](#how-to-use-branches)
+5. [Make any branch as default](#make-any-branch-as-default)
 
 <br/>
 
@@ -82,31 +83,40 @@ Modify the code on the new branch.
 Save your changes with git commit.
 
 * If you want to **Push a this new Branch to the Remote Repository:**
-```bash
-git push -u origin feature-branch
-```
+    ```bash
+    git push -u origin feature-branch
+    ```
 The -u flag sets the upstream for the branch so future pushes can be done simply with git push.
 
 ### 6. **Merge changes:** 
 When the work is complete, merge the branch back into the main branch.
 * **Check Out the Target Branch:** Ensure you are on the branch that you want to merge changes into (e.g., main): 
 
-```bash
-git checkout main
-```
+    ```bash
+    git checkout main
+    ```
 * **See differences:** To inspect the differences between your current branch and branch-name before initiating a merge.
-```bash
-git diff branch-name
-```
+    ```bash
+    git diff branch-name
+    ```
 
 * **Merge the Feature Branch:** 
 Merge the changes from the feature branch (e.g., feature-branch) into main
 
-```bash
-git merge feature-branch
-```
+    ```bash
+    git merge feature-branch
+    ```
 
 * **Push the Merged Changes:** Finally, push the updated main to the remote repository:
-```bash
-git push origin main
-```
+    ```bash
+    git push origin main
+    ```
+
+<br/>
+
+### Make any branch as default
+1. Open git bash
+2. write the command
+    ```bash
+    git config --global init.defaultBranch main
+    ```
