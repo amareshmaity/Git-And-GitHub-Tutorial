@@ -105,7 +105,7 @@ git add .        # Stage all changed files
 git commit -m "Your commit message"
 ```
 
-5. Now go to your github account and create a new repository (give same name as your local git repsitory) e.g., `my-project`
+5. Now go to your github account and create a new repository (**give same name as your local git repsitory**) e.g., `my-project`
 
 **Note:** Make sure remote repository does not contain any file (leave the repository empty) otherwise below steps will not work.
 

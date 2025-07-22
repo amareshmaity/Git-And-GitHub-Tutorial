@@ -23,7 +23,7 @@ Follow the sections below to learn when and how to use each command.
 <br/>
 
 # Clone
-Cloning a repository in Git means Creates a copy of the remote repository on your local machine that's fully synchronized with the remote repository.
+Cloning a repository in Git means Creates a **copy of the remote** repository on your local machine that's fully synchronized with the remote repository.
 
 ```bash
 git clone <repository-url>
@@ -47,7 +47,7 @@ By cloning you're downloading everything from that remote repository, including:
 <br/>
 
 # Pull
-In Git, the pull command is used to update your local repository with changes from a remote repository. It’s essentially a shortcut that does two things:
+In Git, the pull command is used to **update** your local repository with changes from a remote repository. It’s essentially a shortcut that does two things:
 
 * Fetches changes from the remote.
 
@@ -70,12 +70,12 @@ Pulling ensures that your local copy stays up to date with work done by others, 
 # Fetch
 In Git, the fetch command is used to download commits, branches, and tags from a remote repository into your local repository without modifying your working files.
 
-That's mean, it updates your remote-tracking branches (for example, origin/main) so you can later inspect the new changes before deciding to integrate them into your current branch.
+That's mean, it updates your remote-tracking branches (for example, origin/master) so you can later **inspect the new changes before deciding to integrate them** into your current branch.
 
 ![alt text](Images/git-fetch.png)
 
 ### What happens?
-It only updates the metadata and remote-tracking branches; your current working branch remains unchanged.
+It only updates the metadata and **remote-tracking branches**; your **current working branch remains unchanged**.
 
 ### When to use?
 When you want to review before merging. Since it doesn't merge the fetched updates automatically, you can review differences (using commands like git diff) and decide when and how to integrate these changes (e.g., by manually merging or rebasing).
@@ -92,7 +92,7 @@ This command contacts the remote repository named origin and downloads all new d
 <br/>
 
 # Fork
-A fork is a personal copy of another user's repository that lives on GitHub (or another distributed hosting service). This process creates an independent copy of the repository under your GitHub account.
+A fork is a **personal copy of another user's repository** that lives on GitHub (or another distributed hosting service). This process creates an independent copy of the repository under your GitHub account.
 
 ![alt text](Images/git-fork.png)
 
