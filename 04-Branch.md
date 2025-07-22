@@ -89,7 +89,7 @@ Save your changes with git commit.
 The -u flag sets the upstream for the branch so future pushes can be done simply with git push.
 
 ### 6. **Merge changes:** 
-When the work is complete, merge the branch back into the main branch.
+When the work is complete, merge the branch back into the main branch. **Make sure you have commited changes on your new branch (feature-branch) before switch to previous branch (main)
 * **Check Out the Target Branch:** Ensure you are on the branch that you want to merge changes into (e.g., main): 
 
     ```bash
@@ -111,6 +111,25 @@ Merge the changes from the feature branch (e.g., feature-branch) into main
     ```bash
     git push origin main
     ```
+
+<br/>
+
+### 7. Delete branch after merging completely
+Once you’ve merged and no longer need the branch, you can delete it locally and (optionally) remotely.
+#### 1. Delete the local branch
+```bash
+# safe delete (only if fully merged into your current branch)
+git branch -d feature-branch
+
+# force delete (even if not merged)
+git branch -D feature-branch
+```
+
+#### 2. Delete the remote branch
+```bash
+# tells origin to drop the branch named testing
+git push origin --delete feature-branch
+```
 
 <br/>
 
